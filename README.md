@@ -1,8 +1,34 @@
-# React + Vite
+# SummarizeFlow - ChatGPT Summarizer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This single-page app uses React, Redux, Vite, the Summarizer API, and Tailwind CSS to create a tool for summarizing articles. Users can input a URL, and ChatGPT generates a summary. The app also utilizes local storage to maintain a history of summarized articles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+-   React
+-   Redux
+-   Vite
+-   Summarizer API
+-   Tailwind CSS
+
+## Features
+
+-   **ChatGPT Integration:** Utilizes ChatGPT to summarize articles from a provided URL.
+-   **Local Storage History:** Stores a history of summarized articles using local storage.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone [repository-url]
+cd project-directory
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+```
