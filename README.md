@@ -32,3 +32,8 @@ npm install
 # Run the app
 npm run dev
 ```
+
+## Acknowledgements
+
+-  [SummarizerAPI](https://rapidapi.com/restyler/api/article-extractor-and-summarizer)
+-  [TailwindCSS](https://tailwindcss.com/)
